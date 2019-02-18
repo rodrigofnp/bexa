@@ -39,12 +39,13 @@ body {
 
 .chat-popup {
     position: absolute;
-    right: 0;
+    right: 27%;
     bottom: 0;
     background-color: rgba(255, 255, 255, 0.22);
-    width: 310px;
-    height: 40px;
-    border-top-left-radius: 4px;
+    width: 600px;
+    height: 30px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
     animation-duration: 1s;
     animation-fill-mode: forwards;
     overflow: hidden;
@@ -85,7 +86,7 @@ body {
 
 .chat-popup .chat-body {
     opacity: 0;
-    animation-duration: 2s;
+    animation-duration: 1s;
     animation-fill-mode: forwards;
     width: 100%;
     animation-name: show_chat;
